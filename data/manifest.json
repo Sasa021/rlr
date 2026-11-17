@@ -1,0 +1,31 @@
+{
+  "mit": {
+    "name": "ICD-10 Master Industry Table 2021",
+    "published": "2021-03-16",
+    "publisher": "National Department of Health, South Africa",
+    "page": "https://www.health.gov.za/icd-10-master-industry-table/",
+    "url": "https://www.health.gov.za/wp-content/uploads/2021/04/ICD-10_MIT_2021_Excel_16-March_2021.xlsx",
+    "file": "ICD-10_MIT_2021_Excel_16-March_2021.xlsx",
+    "sha256": "9c5911a787be4da27fce4f07edb21f3fc23e5e8eba91ce7b3aa8888a62317992",
+    "sheet": "SA ICD-10 MIT 2021"
+  },
+  "pmb": {
+    "name": "CMS PMB ICD-10 coded list",
+    "distributionTitle": "2026 PMB ICD-10 Coded list Distribution",
+    "distributionUpdated": "2026-05-08",
+    "workbookTitle": "CMS PMB ICD-10 CODED LIST 2022",
+    "publisher": "Council for Medical Schemes",
+    "page": "https://www.medicalschemes.co.za/wpfd_file/2026-pmb-icd-10-coded-list-distribution/",
+    "url": "https://www.medicalschemes.co.za/download/2028/icd10-codings/24945/2026-pmb-icd-10-coded-list-distribution.xlsx",
+    "file": "2026-pmb-icd-10-coded-list-distribution.xlsx",
+    "sha256": "4d309091c53847ef45fbcf370ef3144583dba6445c2c4be47339fe0de1eb5b44",
+    "note": "The CMS download page titles this file as the 2026 distribution (updated 8 May 2026). The worksheet inside is still headed 'CMS PMB ICD-10 CODED LIST 2022'. PMB flags identify possible PMB conditions; CMS states the list is a guideline, not a legal interpretation."
+  },
+  "counts": {
+    "mitCodes": 41008,
+    "suggestable": 35345,
+    "pmbLinksInMit": 8504,
+    "pmbCodesInMit": 7566,
+    "pmbLinksDropped": 1
+  }
+}

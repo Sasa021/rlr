@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RLR · SA ICD-10 coding</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <p class="eyebrow">South African claims coding</p>
+      <h1>RLR</h1>
+      <p class="lede">
+        Type a clinical note. RLR returns three ICD-10 codes from the National Department of Health
+        Master Industry Table, and shows when the CMS list marks a possible PMB.
+      </p>
+      <section class="card">
+        <label for="note">Clinical note</label>
+        <textarea id="note" placeholder="patient has type 2 diabetes with poor control and early kidney damage"></textarea>
+        <div class="row" id="examples"></div>
+        <div class="row">
+          <button class="primary" id="suggest" type="button">Suggest codes</button>
+          <p class="quiet" id="status">MIT search · no server</p>
+        </div>
+      </section>
+      <p class="error" id="error" hidden></p>
+      <section aria-live="polite">
+        <h2 style="color:#115e59">Suggestions</h2>
+        <div class="grid" id="results">
+          <div class="card empty">Three checked codes will appear here.</div>
+        </div>
+      </section>
+      <section class="card history">
+        <h2 style="margin:0;color:#115e59">Confirmed codes</h2>
+        <ul id="history"></ul>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
